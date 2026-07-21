@@ -8,9 +8,8 @@ medical insurance charges based on personal and health-related information
 ## Dataset Link
 [Medical Cost Personal Insurance Dataset — Kaggle](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 
-> Note: The dataset is not uploaded to this repository. Please download it
-> from the Kaggle link above and place it as `insurance.csv` in the project
-> root before running the notebook.
+The dataset (`insurance.csv`) is included in this repository for
+convenience, and is also available at the Kaggle link above.
 
 ## Libraries Used
 - pandas
