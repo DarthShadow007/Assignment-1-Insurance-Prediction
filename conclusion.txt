@@ -1,0 +1,14 @@
+This project built a Multiple Linear Regression model to predict medical
+insurance charges using age, sex, BMI, number of children, smoking status,
+and region. The model achieved an R2 score of 0.78, an MAE of 4181,
+and an MSE of 33596916 on the test set, indicating a reasonably good fit.
+Smoking status emerged as the single strongest predictor of charges,
+followed by age and BMI, while sex and region had comparatively minor
+effects. These findings align with real-world expectations, since smokers
+and older, higher-BMI individuals generally carry greater health risk and
+therefore higher insurance costs. A key limitation of Linear Regression
+here is its assumption of a linear relationship between features and
+charges; in reality, costs rise sharply and non-linearly for high-risk
+groups such as smokers, which the model cannot fully capture. A non-linear
+approach (e.g. polynomial regression or tree-based models) may fit this
+data better.
